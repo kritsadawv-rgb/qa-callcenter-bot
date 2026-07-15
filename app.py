@@ -44,7 +44,7 @@ SYSTEM_PROMPT = """
 # ตั้งค่าโมเดลให้เป็นโหมดไม้บรรทัด (เป๊ะๆ ไม่มีความคิดสร้างสรรค์)
 generation_config = {"temperature": 0.0, "top_p": 1, "top_k": 1}
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash",
+    model_name="gemini-1.5-flash-latest",
     generation_config=generation_config,
     system_instruction=SYSTEM_PROMPT
 )
